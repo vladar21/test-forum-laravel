@@ -9,10 +9,11 @@ MySql 5.7
 4) copy (или cp) .env.example .env (готовим файл конфигурации)
 5) редактируем в файле ".env" абзац базы данных (локализуем базу данных)
 6) создаем пустую базу данных под проект
-7) php artisan migrate (создаем структуру базы данных) 
-8) composer dump-autoload (обновляем загрузчик)
-9) php artisan db:seed --class=ChatterTableSeeder (заполняем базу данных тестовыми данными)
-10) php artisan serve (запускаем сайт)
+7) php artisan key:generate (генерация секретного ключа приложения, после генерации ключа вам может понадобиться очистка куки в броузере)
+8) php artisan migrate (создаем структуру базы данных) 
+9) composer dump-autoload (обновляем загрузчик)
+10) php artisan db:seed --class=ChatterTableSeeder (заполняем базу данных тестовыми данными)
+11) php artisan serve (запускаем сайт)
 
 Кратко о работе над заданием:
 Проект выполнен в редакторе Visual Studio Code на базе данных MySQL 5.7. 
